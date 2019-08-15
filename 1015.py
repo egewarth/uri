@@ -1,0 +1,8 @@
+a=input().split()
+b=input().split()
+xa=float(a[0])
+ya=float(a[1])
+xb=float(b[0])
+yb=float(b[1])
+distancia=((((xb-xa)**2)+((yb-ya)**2))**(1/2))
+print("{0:.4f}".format(distancia))
